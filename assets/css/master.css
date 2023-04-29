@@ -1,0 +1,258 @@
+body{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Global Styling */
+h1{
+  font-family: gd-sage,"Times New Roman",serif;
+  font-weight: bolder;
+}
+
+
+/* Top Section Styling */
+
+.top-section{
+  background-image: url('/images/background.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  color: white;
+  background-size: cover;
+}
+
+.top-menu{
+  display: flex;
+  margin: auto;
+  padding: 20px 40px 40px 40px;
+
+}
+
+.top-menu ul{
+  margin-left: auto;
+}
+
+.top-menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 15px 10px 15px;
+}
+
+.top-section .content-holder{
+  text-align: left;
+  padding: 0px 40px 40px 10%;
+}
+
+.top-section .content{
+  padding: 10% 0px 8% 2px;
+  max-width: 800px;
+}
+
+.top-section .content h1{
+  font-size: 4rem;
+}
+
+.top-section .content .search{
+  margin-top: 3%;
+  background-color: white;
+  display: flex;
+  width: 85%;
+}
+
+.top-section .content .search input{
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  border: none;
+}
+
+.top-section .content .search a{
+  background-color: #00A4A6;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .top-section .content h1{
+    font-size: 3rem;
+  }
+  .top-menu ul{
+    display: none;
+  }
+}
+
+/* Style For Main Content */
+
+/* Row and Cols arrangement */
+
+.main-content{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-content .motive{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 78px;
+  margin-bottom: 46px;
+}
+
+.features .row{
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features .row .col-item{
+  max-width: 500px;
+  display: inline-block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features .row .col-item h5{
+  margin-bottom: 20px;
+}
+
+.features .row .col-item img{
+  width: 40%;
+}
+
+/*  carousel arrangement */
+.carousel_item{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.carousel_item h5{
+  margin-bottom: 20px;
+}
+
+.carousel_item img{
+  width: 20%;
+}
+
+.carousel-indicators li{
+  color: black;
+  background-color: black;
+}
+
+@media (max-width: 975px) {
+  .row-arrangement{
+    display: none;
+  }
+
+  .carousel-arrangement{
+    display: block;
+  }
+}
+
+@media (min-width: 974px) {
+  .row-arrangement{
+    display: block;
+  }
+
+  .carousel-arrangement{
+    display: none;
+  }
+}
+
+/* Footer */
+.bottom-section{
+  background-color: #111111;
+}
+
+/* Frist Block */
+.support-strip{
+  background-color: #00A4A6;
+  color: white;
+}
+
+.support-strip p{
+  padding: 20px;
+  font-size: 22px;
+  margin: 0px;
+}
+
+/* Second Block */
+.guide {
+  font-size: 20px;
+  text-align: left;
+  padding: 40px 0px 40px 40px;
+}
+
+.guide p{
+  font-weight: bold;
+  color: #9ABAC3;
+}
+
+.guide img{
+  display: inline-block;
+}
+
+.guide .guides{
+  width: 40%;
+  max-width: 393px;
+}
+
+.guide .arrow{
+  width: 10%;
+  margin-left: 15px;
+  max-width: 98px;
+}
+
+/* Third Block */
+
+.footer-menu{
+  text-align: left;
+  color: white;
+  padding: 60px 20px 60px 60px;
+  border-bottom: 1px solid #9ABAC3;
+  border-top: 1px solid #9ABAC3;
+}
+
+.footer-menu .col-items{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.footer-menu .col-items h5{
+  font-size: 18px;
+}
+
+.footer-menu ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-menu ul li{
+  margin: 10px 0px 10px 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.footer-menu a{
+  text-decoration: none;
+  color: #9ABAC3;
+}
+
+/* Footer nav */
+.footer-nav{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+/* Filling color in GoDaddy Logo */
+.path-mobile, .path-desktop, .path-tm-desktop, .path-tm-mobile{
+  fill: #fff;
+}
